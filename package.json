@@ -14,7 +14,7 @@
     "build": "tsup --onSuccess \"yarn yalc publish\"",
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"{src,tests}/**/*.+(ts|js|tsx)\"",
-    "lint:fix": "yarn lint --fix && prettier --write .",
+    "lint:fix": "yarn lint --fix && prettier --write . --ignore-unknown",
     "test": "vitest",
     "test:ci": "vitest run --coverage",
     "prepare": "husky install",
@@ -57,7 +57,7 @@
     "./{src,tests}/**/*.{ts,js,jsx,tsx}": [
       "eslint --ignore-path .gitignore --fix"
     ],
-    "*": "prettier --write"
+    "*": "prettier --write --ignore-unknown"
   },
   "config": {
     "commitizen": {
