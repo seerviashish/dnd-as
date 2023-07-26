@@ -12,5 +12,6 @@
     "javascruptreact",
     "typescript",
     "typescriptreact"
-  ]
+  ],
+  "cSpell.words": ["commitlintrc", "vitest"]
 }
