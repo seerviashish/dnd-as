@@ -13,5 +13,5 @@
     "typescript",
     "typescriptreact"
   ],
-  "cSpell.words": ["commitlintrc", "vitest"]
+  "cSpell.words": ["commitlintrc", "nofix", "nosolution", "vitest", "wontfix"]
 }
