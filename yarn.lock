@@ -39,7 +39,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.22.9.tgz#71cdb00a1ce3a329ce4cbec3a44f9fef35669730"
   integrity sha512-5UamI7xkUcJ3i9qVDS+KFDEK8/7oJ55/sJMB1Ge7IEapr7KfdfV/HErR+koZwOfd+SgtFKOKRhRakdg++DcJpQ==
 
-"@babel/core@7.22.9", "@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.13.16", "@babel/core@^7.22.0", "@babel/core@^7.22.5", "@babel/core@^7.22.9", "@babel/core@^7.7.5":
+"@babel/core@7.22.9", "@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.13.16", "@babel/core@^7.22.5", "@babel/core@^7.22.9", "@babel/core@^7.7.5":
   version "7.22.9"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.22.9.tgz#bd96492c68822198f33e8a256061da3cf391f58f"
   integrity sha512-G2EgeufBcYw27U4hhoIwFcgc1XU7TlXJ3mv04oOv1WCuo900U/anZSPzEqNjwdjgffkk2Gs0AN0dW1CKVLcG7w==
@@ -2524,6 +2524,35 @@
     "@storybook/preview-api" "7.1.0"
     "@storybook/theming" "7.1.0"
     "@storybook/types" "7.1.0"
+    "@types/lodash" "^4.14.167"
+    color-convert "^2.0.1"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    markdown-to-jsx "^7.1.8"
+    memoizerific "^1.11.3"
+    polished "^4.2.2"
+    react-colorful "^5.1.2"
+    telejson "^7.0.3"
+    tocbot "^4.20.1"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/blocks@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.1.1.tgz#b92fb6184bee667f3eb6e7879da2060ea700d9bc"
+  integrity sha512-YIpIJi/+sByZhKrpKbVmXazUP1hj/QXybVOzwz2PT6tphfhrubGLBgu3RJIp6hwJ/lWf9RfghR7P8n+7aN6U9w==
+  dependencies:
+    "@storybook/channels" "7.1.1"
+    "@storybook/client-logger" "7.1.1"
+    "@storybook/components" "7.1.1"
+    "@storybook/core-events" "7.1.1"
+    "@storybook/csf" "^0.1.0"
+    "@storybook/docs-tools" "7.1.1"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.1.1"
+    "@storybook/preview-api" "7.1.1"
+    "@storybook/theming" "7.1.1"
+    "@storybook/types" "7.1.1"
     "@types/lodash" "^4.14.167"
     color-convert "^2.0.1"
     dequal "^2.0.2"
