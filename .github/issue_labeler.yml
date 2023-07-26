@@ -1,0 +1,24 @@
+feature:
+  - feat
+fix:
+  - fix
+docs:
+  - docs
+style:
+  - style
+refactor:
+  - refactor
+performance:
+  - perf
+test:
+  - test
+build:
+  - build
+ci:
+  - ci
+chore:
+  - chore
+reverted:
+  - revert
+critical:
+  - '(critical|urgent)'
