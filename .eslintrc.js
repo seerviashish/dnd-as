@@ -8,6 +8,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
     'plugin:storybook/recommended',
+    'plugin:react/jsx-runtime',
     'prettier',
     'plugin:storybook/recommended',
   ],

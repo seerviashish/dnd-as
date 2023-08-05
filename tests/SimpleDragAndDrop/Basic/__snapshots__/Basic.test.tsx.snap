@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SimpleDragAndDrop/Basic tests 1`] = `
+<div
+  className="MuiBox-root css-0"
+>
+  <div
+    className="MuiBox-root css-0"
+  >
+    Draggable Element
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    Drop Area
+  </div>
+</div>
+`;
