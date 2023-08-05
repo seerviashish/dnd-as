@@ -1743,10 +1743,20 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.1.1.tgz#1a5b1959a528e374e8037c4396c3e825d6cf4a83"
   integrity sha512-m0G6wlnhm/AX0H12IOWtK8gASEMffnX08RtKkCgTdHb9JpHKGloI7icFfLg9ZmQeavcvR0PKmzxClyuFPSjKWw==
 
-"@fontsource-variable/open-sans@^5.0.8":
-  version "5.0.8"
-  resolved "https://registry.yarnpkg.com/@fontsource-variable/open-sans/-/open-sans-5.0.8.tgz#377c36b3d1ca3fe4a100ca5e80cf7708f7967236"
-  integrity sha512-prtC1l+rxmsjruSek8RjLc28Srd6SVjHDqLVESz17duPC1MQ5Ftw6hgX616iiM2XyNqaLSNTAHYzVJzRI7a11w==
+"@fontsource/material-icons@^5.0.6":
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/material-icons/-/material-icons-5.0.6.tgz#d3ec1d0c800b079751310d747a9d9998798d4efa"
+  integrity sha512-G0uqSrmYUuWWf8yiPgM09f5aqVeeA4W8c/X8OhxtMEiDFM9GKlGbumwZ4dCb7UgMNlQ307IeDDUi0s2oKypdcg==
+
+"@fontsource/open-sans@^5.0.7":
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-5.0.7.tgz#945cd629b3220f396d2fdb7b87cfc8879c648ee9"
+  integrity sha512-LV4QjOlosKnNDcC+B8Dv42RsXxkhCO6s/ea5cnZQLGmsx1g3fn0i9SwMK2V0G8zlEC7NuitUy3VT7BLKZRa/9A==
+
+"@fontsource/roboto@^5.0.7":
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-5.0.7.tgz#683e3294a5202339d078f784dd557e5862440070"
+  integrity sha512-Hcl5xloy9PH+hCGnKTl9Xg7SOXbvSFIg+AW2JZ5qrsAZBI9IEC4kwma6D/aTl9ywvsdEp+7TeVT2fmFImXyHTw==
 
 "@humanwhocodes/config-array@^0.11.10":
   version "0.11.10"

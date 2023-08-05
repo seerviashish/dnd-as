@@ -1,5 +1,38 @@
+import '@fontsource/material-icons';
+import '@fontsource/open-sans/300-italic.css';
+import '@fontsource/open-sans/300.css';
+import '@fontsource/open-sans/400-italic.css';
+import '@fontsource/open-sans/400.css';
+import '@fontsource/open-sans/500-italic.css';
+import '@fontsource/open-sans/500.css';
+import '@fontsource/open-sans/600-italic.css';
+import '@fontsource/open-sans/600.css';
+import '@fontsource/open-sans/700-italic.css';
+import '@fontsource/open-sans/700.css';
+import '@fontsource/open-sans/800-italic.css';
+import '@fontsource/open-sans/800.css';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import {
+  CssBaseline,
+  ThemeProvider,
+  createTheme,
+  responsiveFontSizes,
+} from '@mui/material';
+import { withThemeFromJSXProvider } from '@storybook/addon-styling';
 import type { Preview } from '@storybook/react';
-import { WithMuiTheme } from '../src/theme/index';
+
+const getTheme = (mode?: 'dark' | 'light') =>
+  responsiveFontSizes(
+    createTheme({
+      palette: {
+        mode,
+      },
+    })
+  );
+
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },
@@ -13,23 +46,18 @@ const preview: Preview = {
       toc: true,
     },
   },
-  decorators: [WithMuiTheme],
-  globalTypes: {
-    theme: {
-      name: 'Theme',
-      title: 'Theme',
-      description: 'Theme for your components',
-      defaultValue: 'light',
-      toolbar: {
-        icon: 'paintbrush',
-        dynamicTitle: true,
-        items: [
-          { value: 'light', left: '🌞', title: 'Light mode' },
-          { value: 'dark', left: '🌑', title: 'Dark mode' },
-        ],
+  decorators: [
+    // Adds global styles and theme switching support.
+    withThemeFromJSXProvider({
+      GlobalStyles: CssBaseline,
+      Provider: ThemeProvider,
+      themes: {
+        light: getTheme('light'),
+        dark: getTheme('dark'),
       },
-    },
-  },
+      defaultTheme: 'light',
+    }),
+  ],
 };
 
 export default preview;
