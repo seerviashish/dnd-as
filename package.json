@@ -1,7 +1,7 @@
 {
   "name": "dnd-as",
   "description": "React component that provides smooth drag and drop functionality",
-  "version": "0.1.0-0",
+  "version": "0.1.0-5",
   "author": "Ashish Chaudhary <seerviashish17@gmail.com> (https://github.com/seerviashish)",
   "license": "MIT",
   "keywords": [],
