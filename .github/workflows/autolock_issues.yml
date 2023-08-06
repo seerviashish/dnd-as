@@ -1,4 +1,4 @@
-name: 'Autolock Pull Request'
+name: 'Autolock Issues Request'
 
 on:
   schedule:
