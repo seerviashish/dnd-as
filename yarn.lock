@@ -2361,20 +2361,20 @@
   integrity sha512-CX6t4SYQ37lzxicAqsBtxA3OseeoVrh9cSJ5PFYam0GksYlupRfy1A+Q4aYD3zvcfECLc0zO2u+ZnR2UYKvCrw==
 
 "@storybook/addon-a11y@^7.2.1":
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.2.1.tgz#c901824adec666a95c30c059c4f2f30d3233545e"
-  integrity sha512-r4YLTcPfGqoshu3uq+dyydWZ35zIwoumJ/zgFTlPsxmpV9WArXEKg25fKUNfJMuEE+7U5NqC9xq8ocUa9ihMlg==
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.3.0.tgz#a236d3497e27e5921b2304de8fab3af7d79e4e94"
+  integrity sha512-MdUv6kI4CSfAaOnsZYTCGnyHm8xHewEbVXQ966WSh6aUuTvRaiwX/eZu2Fk4ZA8WtIs8cuS0/YA+dcdxvwwwTA==
   dependencies:
-    "@storybook/addon-highlight" "7.2.1"
-    "@storybook/channels" "7.2.1"
-    "@storybook/client-logger" "7.2.1"
-    "@storybook/components" "7.2.1"
-    "@storybook/core-events" "7.2.1"
+    "@storybook/addon-highlight" "7.3.0"
+    "@storybook/channels" "7.3.0"
+    "@storybook/client-logger" "7.3.0"
+    "@storybook/components" "7.3.0"
+    "@storybook/core-events" "7.3.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.2.1"
-    "@storybook/preview-api" "7.2.1"
-    "@storybook/theming" "7.2.1"
-    "@storybook/types" "7.2.1"
+    "@storybook/manager-api" "7.3.0"
+    "@storybook/preview-api" "7.3.0"
+    "@storybook/theming" "7.3.0"
+    "@storybook/types" "7.3.0"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2479,15 +2479,6 @@
     "@storybook/node-logger" "7.3.0"
     "@storybook/preview-api" "7.3.0"
     ts-dedent "^2.0.0"
-
-"@storybook/addon-highlight@7.2.1":
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.2.1.tgz#29c67fbc579796c4fe6ecd88b36f596901d1c819"
-  integrity sha512-6nNqpSMImn1mSGmEKF1o+C6o4lWJjduGYnCIO/ouXExaNLMrdcGKUEWrluABLOeDRPcNC9/EkuIEd8IsDnUX4A==
-  dependencies:
-    "@storybook/core-events" "7.2.1"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.2.1"
 
 "@storybook/addon-highlight@7.3.0":
   version "7.3.0"
@@ -2889,7 +2880,7 @@
     prettier "^2.8.0"
     recast "^0.23.1"
 
-"@storybook/components@7.2.1", "@storybook/components@^7.0.12":
+"@storybook/components@7.2.1":
   version "7.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.2.1.tgz#ea2f46f4f84614e14f0946878a3085aea2d3fcec"
   integrity sha512-7JuMT2yK9FGPu9hFCo38tC3FDyr/hJ3CQwU6dSR6E5rT9E658dq31Xl3y/fM5OMzl8MX8Off7TWiybHSuwYJTA==
@@ -2921,7 +2912,7 @@
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
 
-"@storybook/components@7.3.0":
+"@storybook/components@7.3.0", "@storybook/components@^7.0.12":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.3.0.tgz#ca4725fdf80d38a873f366e6f7d9f622599cd0a5"
   integrity sha512-YHcPsH0T//ZZ3HhZDmf+UKt2R0b+kNT42LizYs5R61d47oIvsHrqPqdN7p+OuTrBpaFdVNSzO7XjpeRodqGRLQ==
@@ -3038,7 +3029,7 @@
     resolve-from "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/core-events@7.2.1", "@storybook/core-events@^7.0.12":
+"@storybook/core-events@7.2.1":
   version "7.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.2.1.tgz#05121c9bac6ac3989acc05b49116107331e0c398"
   integrity sha512-EUXYb3gyQ2EzpDAWkgfoDl1EPabj3OE6+zntsD/gwvzQU85BTocs10ksnRyS55bfrQpYbf+Z+gw2CZboyagLgg==
@@ -3048,7 +3039,7 @@
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.2.3.tgz#ad1badbfb468ca97237370fc7e7a8dc6a5a1922c"
   integrity sha512-WWpdORiEvOl3/71xFghfEwid7ptgm9U6OxoJm8hU9e5xNuj80k2B+t4sv/iVnz872UuI5xXJqamzCqGVTblPlg==
 
-"@storybook/core-events@7.3.0":
+"@storybook/core-events@7.3.0", "@storybook/core-events@^7.0.12":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.3.0.tgz#e5ddfec39f676d20cb6e6c7b357335207cec4876"
   integrity sha512-Ke3gjjJDMbihAVzgLUfXoZ3FHLLP22/TSBtytayztC0zAzEGeg6j4UUWzEKYggKIGJNIJ16GQfaGlcVLxHhSKw==
@@ -3573,7 +3564,7 @@
     "@testing-library/user-event" "^14.0.0"
     ts-dedent "^2.2.0"
 
-"@storybook/theming@7.2.1", "@storybook/theming@^7.0.12":
+"@storybook/theming@7.2.1":
   version "7.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.2.1.tgz#55a1c27ae3a2c1594126f80853422b9cf4d64bf0"
   integrity sha512-cfnNCLvKmzxjmoYKfLl7Q64gSTouLvd23CtvBAOlWcRYnMJ9v4/7A2tK3xQyVRlJYh9OuXiHFLL8AXbN58Hkzw==
@@ -3593,7 +3584,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.3.0":
+"@storybook/theming@7.3.0", "@storybook/theming@^7.0.12":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.3.0.tgz#2a015f4816f787de7dfd6649d50f05ef9805f8c1"
   integrity sha512-/Jcd/duEW28lvjTbocKWiB8DT3wLZeJeBg3XtknZbZ0SlPf4JR5Y3Atl4fT1HEeV30Ks9ZlE5xipVY2Z+fjS7Q==
@@ -3603,7 +3594,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/types@7.2.1", "@storybook/types@^7.0.12":
+"@storybook/types@7.2.1":
   version "7.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.2.1.tgz#c10449955a1fc1ef57e270feace2bbd3bd87a1e6"
   integrity sha512-YwlIY1uyxfJjijbB5x1d1QOKaUUDJnMX8BSb8oGqU4cyT76X/Is4CbGs+vccFsJo0tZu1GfuahYXl0EDT0nnSQ==
@@ -3623,7 +3614,7 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.3.0":
+"@storybook/types@7.3.0", "@storybook/types@^7.0.12":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.3.0.tgz#88e2141e31407b2dc864f9f364376c7b6e25a76b"
   integrity sha512-NpemDA3hwK+jVTfPc1u1wQwu7DXqpatEtmAQUzEerx5lwoMvj3lGSk30xrOCpNvvpZz2P97FDScVsmzGlXwncA==
@@ -4910,15 +4901,10 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-axe-core@^4.2.0:
+axe-core@^4.2.0, axe-core@^4.6.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.7.2.tgz#040a7342b20765cb18bb50b628394c21bccc17a0"
   integrity sha512-zIURGIS1E1Q4pcrMjp+nnEh+16G56eG/MUllJH8yEvw7asDo7Ac9uhC9KIH5jzpITueEZolfYglnCGIuSBz39g==
-
-axe-core@^4.6.2:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.6.3.tgz#fc0db6fdb65cc7a80ccf85286d91d64ababa3ece"
-  integrity sha512-/BQzOX780JhsxDnPpH4ZiyrJAzcd8AfzFPkv+89veFSr1rcMjuq2JDCwypKaPeB6ljHp9KjXhPpjgCvQlWYuqg==
 
 axobject-query@^3.1.1:
   version "3.1.1"
