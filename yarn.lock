@@ -2361,20 +2361,20 @@
   integrity sha512-CX6t4SYQ37lzxicAqsBtxA3OseeoVrh9cSJ5PFYam0GksYlupRfy1A+Q4aYD3zvcfECLc0zO2u+ZnR2UYKvCrw==
 
 "@storybook/addon-a11y@^7.2.1":
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.2.1.tgz#c901824adec666a95c30c059c4f2f30d3233545e"
-  integrity sha512-r4YLTcPfGqoshu3uq+dyydWZ35zIwoumJ/zgFTlPsxmpV9WArXEKg25fKUNfJMuEE+7U5NqC9xq8ocUa9ihMlg==
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.3.0.tgz#a236d3497e27e5921b2304de8fab3af7d79e4e94"
+  integrity sha512-MdUv6kI4CSfAaOnsZYTCGnyHm8xHewEbVXQ966WSh6aUuTvRaiwX/eZu2Fk4ZA8WtIs8cuS0/YA+dcdxvwwwTA==
   dependencies:
-    "@storybook/addon-highlight" "7.2.1"
-    "@storybook/channels" "7.2.1"
-    "@storybook/client-logger" "7.2.1"
-    "@storybook/components" "7.2.1"
-    "@storybook/core-events" "7.2.1"
+    "@storybook/addon-highlight" "7.3.0"
+    "@storybook/channels" "7.3.0"
+    "@storybook/client-logger" "7.3.0"
+    "@storybook/components" "7.3.0"
+    "@storybook/core-events" "7.3.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.2.1"
-    "@storybook/preview-api" "7.2.1"
-    "@storybook/theming" "7.2.1"
-    "@storybook/types" "7.2.1"
+    "@storybook/manager-api" "7.3.0"
+    "@storybook/preview-api" "7.3.0"
+    "@storybook/theming" "7.3.0"
+    "@storybook/types" "7.3.0"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2479,15 +2479,6 @@
     "@storybook/node-logger" "7.3.0"
     "@storybook/preview-api" "7.3.0"
     ts-dedent "^2.0.0"
-
-"@storybook/addon-highlight@7.2.1":
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.2.1.tgz#29c67fbc579796c4fe6ecd88b36f596901d1c819"
-  integrity sha512-6nNqpSMImn1mSGmEKF1o+C6o4lWJjduGYnCIO/ouXExaNLMrdcGKUEWrluABLOeDRPcNC9/EkuIEd8IsDnUX4A==
-  dependencies:
-    "@storybook/core-events" "7.2.1"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.2.1"
 
 "@storybook/addon-highlight@7.3.0":
   version "7.3.0"
@@ -4905,15 +4896,10 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-axe-core@^4.2.0:
+axe-core@^4.2.0, axe-core@^4.6.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.7.2.tgz#040a7342b20765cb18bb50b628394c21bccc17a0"
   integrity sha512-zIURGIS1E1Q4pcrMjp+nnEh+16G56eG/MUllJH8yEvw7asDo7Ac9uhC9KIH5jzpITueEZolfYglnCGIuSBz39g==
-
-axe-core@^4.6.2:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.6.3.tgz#fc0db6fdb65cc7a80ccf85286d91d64ababa3ece"
-  integrity sha512-/BQzOX780JhsxDnPpH4ZiyrJAzcd8AfzFPkv+89veFSr1rcMjuq2JDCwypKaPeB6ljHp9KjXhPpjgCvQlWYuqg==
 
 axobject-query@^3.1.1:
   version "3.1.1"
