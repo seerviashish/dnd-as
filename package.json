@@ -97,7 +97,7 @@
     "@storybook/react-webpack5": "7.2.3",
     "@storybook/storybook-deployer": "2.8.16",
     "@storybook/testing-library": "0.2.0",
-    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^14.0.0",
     "@types/node": "20.4.9",
     "@types/react": "18.2.20",
