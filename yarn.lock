@@ -2361,20 +2361,20 @@
   integrity sha512-CX6t4SYQ37lzxicAqsBtxA3OseeoVrh9cSJ5PFYam0GksYlupRfy1A+Q4aYD3zvcfECLc0zO2u+ZnR2UYKvCrw==
 
 "@storybook/addon-a11y@^7.2.1":
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.3.0.tgz#a236d3497e27e5921b2304de8fab3af7d79e4e94"
-  integrity sha512-MdUv6kI4CSfAaOnsZYTCGnyHm8xHewEbVXQ966WSh6aUuTvRaiwX/eZu2Fk4ZA8WtIs8cuS0/YA+dcdxvwwwTA==
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.3.2.tgz#ca79b724a371b83186c61294bf7988ec5bcbd079"
+  integrity sha512-tEWOHoeGNDAlw1yztEmjJ/MrNelHT5OneMuqoXSyJsozPbYg/jXm6j3k/lZ/Pg3IMAZq1XxP23LQifql9O/YZA==
   dependencies:
-    "@storybook/addon-highlight" "7.3.0"
-    "@storybook/channels" "7.3.0"
-    "@storybook/client-logger" "7.3.0"
-    "@storybook/components" "7.3.0"
-    "@storybook/core-events" "7.3.0"
+    "@storybook/addon-highlight" "7.3.2"
+    "@storybook/channels" "7.3.2"
+    "@storybook/client-logger" "7.3.2"
+    "@storybook/components" "7.3.2"
+    "@storybook/core-events" "7.3.2"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.3.0"
-    "@storybook/preview-api" "7.3.0"
-    "@storybook/theming" "7.3.0"
-    "@storybook/types" "7.3.0"
+    "@storybook/manager-api" "7.3.2"
+    "@storybook/preview-api" "7.3.2"
+    "@storybook/theming" "7.3.2"
+    "@storybook/types" "7.3.2"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2479,15 +2479,6 @@
     "@storybook/node-logger" "7.3.2"
     "@storybook/preview-api" "7.3.2"
     ts-dedent "^2.0.0"
-
-"@storybook/addon-highlight@7.3.0":
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.3.0.tgz#07959411cc74aff7242c816d01878bba7137cf6e"
-  integrity sha512-Rsl1+/KiNuh0doTtbyDv9jO6kg6b/5LqLz0p84o+DcEwYGTQnfvPMs2e8q38DNF8HBEw4PJdWkSHlJkex56xPA==
-  dependencies:
-    "@storybook/core-events" "7.3.0"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.3.0"
 
 "@storybook/addon-highlight@7.3.2":
   version "7.3.2"
@@ -2901,23 +2892,6 @@
     "@storybook/icons" "^1.1.0"
     "@storybook/theming" "7.2.1"
     "@storybook/types" "7.2.1"
-    memoizerific "^1.11.3"
-    use-resize-observer "^9.1.0"
-    util-deprecate "^1.0.2"
-
-"@storybook/components@7.3.0":
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.3.0.tgz#ca4725fdf80d38a873f366e6f7d9f622599cd0a5"
-  integrity sha512-YHcPsH0T//ZZ3HhZDmf+UKt2R0b+kNT42LizYs5R61d47oIvsHrqPqdN7p+OuTrBpaFdVNSzO7XjpeRodqGRLQ==
-  dependencies:
-    "@radix-ui/react-select" "^1.2.2"
-    "@radix-ui/react-toolbar" "^1.0.4"
-    "@storybook/client-logger" "7.3.0"
-    "@storybook/csf" "^0.1.0"
-    "@storybook/global" "^5.0.0"
-    "@storybook/icons" "^1.1.6"
-    "@storybook/theming" "7.3.0"
-    "@storybook/types" "7.3.0"
     memoizerific "^1.11.3"
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
