@@ -2919,6 +2919,14 @@
     "@storybook/client-logger" "7.3.2"
     "@storybook/preview-api" "7.3.2"
 
+"@storybook/core-client@7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.4.0.tgz#b2b683ebc44d0dfaa7a886f7bb1a5fc74a3d0965"
+  integrity sha512-AhysJS2HnydB8Jc+BMVzK5VLHa1liJjxroNsd+ZTgGUhD7R8wvozrswQgY4MLFtcaLwN/wDWlK2YavSBqmc94Q==
+  dependencies:
+    "@storybook/client-logger" "7.4.0"
+    "@storybook/preview-api" "7.4.0"
+
 "@storybook/core-common@7.3.2", "@storybook/core-common@^7.0.12":
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.3.2.tgz#82816a6d7a9b7d07a229d287d6a8b16aa41ec10a"
@@ -3311,6 +3319,11 @@
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.3.2.tgz#67d266ee56286479cd1c3b113451a7907516fdbe"
   integrity sha512-63ysybmpl9UULmLu/aUwWwhjf5QEWTvnMW9r8Z3LF3sW8Z698ZsssdThzNWqw0zlwTlgnQA4ta2Df4/oVXR0+Q==
 
+"@storybook/react-dom-shim@7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.4.0.tgz#12f137f00f2a209cb49a4084475dd93f23e0678a"
+  integrity sha512-TLpb8a2hnWJoRLqoXpMADh82BFfRZll6JI2Waf1FjnvJ4SF9eS0zBbxybrjW3lFAHWy2XJi+rwcK8FiPj0iBoQ==
+
 "@storybook/react-webpack5@7.3.2":
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/@storybook/react-webpack5/-/react-webpack5-7.3.2.tgz#f6d85dddcb4de583ab968f8ed00f4b6ce3075c54"
@@ -3340,6 +3353,33 @@
     acorn-jsx "^5.3.1"
     acorn-walk "^7.2.0"
     escodegen "^2.0.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "~2.19"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.4.0.tgz#18d29aa49f0b784b46613d26a243caf473177403"
+  integrity sha512-QWsFw/twsNkcWI6brW06sugQQ5dV+fJm4IrEeI28cA4cBHK9G9HKOwCHoXDUWikzZx48XYMpNfs/WyIkuGmEqg==
+  dependencies:
+    "@storybook/client-logger" "7.4.0"
+    "@storybook/core-client" "7.4.0"
+    "@storybook/docs-tools" "7.4.0"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.4.0"
+    "@storybook/react-dom-shim" "7.4.0"
+    "@storybook/types" "7.4.0"
+    "@types/escodegen" "^0.0.6"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^16.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.1.0"
     html-tags "^3.1.0"
     lodash "^4.17.21"
     prop-types "^15.7.2"
@@ -11641,13 +11681,6 @@ tar@^6.1.13:
     yallist "^4.0.0"
 
 telejson@^7.0.3, telejson@^7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/telejson/-/telejson-7.2.0.tgz#3994f6c9a8f8d7f2dba9be2c7c5bbb447e876f32"
-  integrity sha512-1QTEcJkJEhc8OnStBx/ILRu5J2p0GjvWsBx56bmZRqnrkdBMUe+nX92jxV+p3dB4CP6PZCdJMQJwCggkNBMzkQ==
-  dependencies:
-    memoizerific "^1.11.3"
-
-telejson@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/telejson/-/telejson-7.2.0.tgz#3994f6c9a8f8d7f2dba9be2c7c5bbb447e876f32"
   integrity sha512-1QTEcJkJEhc8OnStBx/ILRu5J2p0GjvWsBx56bmZRqnrkdBMUe+nX92jxV+p3dB4CP6PZCdJMQJwCggkNBMzkQ==
