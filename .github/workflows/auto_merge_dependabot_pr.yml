@@ -10,25 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+      - name: Run main workflow
+        uses: ./.github/workflows/main.yml
 
-      - name: Set up Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: lts/*
-          cache: 'yarn'
-
-      - name: Install dependencies, Check types, Check linting, Run tests, Build storybook, Build
-        run: |
-          yarn install --frozen-lockfile
-          yarn type-check
-          yarn lint
-          yarn test:ci
-          yarn build-storybook
-          yarn build
+      - name: Run code quality check
+        uses: ./.github/workflows/codeql.yml
 
       - name: Merge PR
         if: success()
