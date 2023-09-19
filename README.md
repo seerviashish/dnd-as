@@ -31,3 +31,5 @@ cd dnd-as
 ```bash
 yarn
 ```
+
+4. Testing..
