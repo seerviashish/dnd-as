@@ -2517,21 +2517,21 @@
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.4.3"
 
-"@storybook/addon-interactions@7.4.2":
-  version "7.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.4.2.tgz#44618d9d00a041058e12d19b774d3cd8ef7baaa9"
-  integrity sha512-Gr3UbrPRgtBmwYctFiIxYlg4pfe07sC5gvMJmMdzHSJo0yAmcw2fSzKe4aEPX4trdAIb+diQKi3TDqIBrOfCLQ==
+"@storybook/addon-interactions@7.4.3":
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.4.3.tgz#cdbc99ce5e718dc888ea098fcefbd4ef762a0f87"
+  integrity sha512-72Uy7FGr3UbEq44D44ML/o/kC8jUuBETDgnNTC/J7n35OzHcBcas9cHzam87IG/M8uxTwKtuUlEzwyoNUjI3MA==
   dependencies:
-    "@storybook/client-logger" "7.4.2"
-    "@storybook/components" "7.4.2"
-    "@storybook/core-common" "7.4.2"
-    "@storybook/core-events" "7.4.2"
+    "@storybook/client-logger" "7.4.3"
+    "@storybook/components" "7.4.3"
+    "@storybook/core-common" "7.4.3"
+    "@storybook/core-events" "7.4.3"
     "@storybook/global" "^5.0.0"
-    "@storybook/instrumenter" "7.4.2"
-    "@storybook/manager-api" "7.4.2"
-    "@storybook/preview-api" "7.4.2"
-    "@storybook/theming" "7.4.2"
-    "@storybook/types" "7.4.2"
+    "@storybook/instrumenter" "7.4.3"
+    "@storybook/manager-api" "7.4.3"
+    "@storybook/preview-api" "7.4.3"
+    "@storybook/theming" "7.4.3"
+    "@storybook/types" "7.4.3"
     jest-mock "^27.0.6"
     polished "^4.2.2"
     ts-dedent "^2.2.0"
@@ -3265,16 +3265,16 @@
   resolved "https://registry.yarnpkg.com/@storybook/icons/-/icons-1.1.6.tgz#22536cde6dd85fa259608fa8bd7b9eeca2a8e688"
   integrity sha512-co5gDCYPojRAc5lRMnWxbjrR1V37/rTmAo9Vok4a1hDpHZIwkGTWesdzvYivSQXYFxZTpxdM1b5K3W87brnahw==
 
-"@storybook/instrumenter@7.4.2":
-  version "7.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.4.2.tgz#4c8c59bcdbafaddf6e214aef6297d735af13ea28"
-  integrity sha512-g0tYjfv8q6RLl7PK3cyZGcdhad+4BspT1TXHl5Z4DFSo+bqFyHkP6X9tXzrpfQk+3abNrh5EjPaeec4+YHAOEw==
+"@storybook/instrumenter@7.4.3":
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.4.3.tgz#6cb0786b89b935ce19183fa7a10b0b7b4fb920c0"
+  integrity sha512-XVctoUOFthTCea2+BKFKeUbhWrRY+1I8THgsZx67X3MQDt9bafwQdFR9jTGBeC31oNi1b7nmTuaox0lneNlghA==
   dependencies:
-    "@storybook/channels" "7.4.2"
-    "@storybook/client-logger" "7.4.2"
-    "@storybook/core-events" "7.4.2"
+    "@storybook/channels" "7.4.3"
+    "@storybook/client-logger" "7.4.3"
+    "@storybook/core-events" "7.4.3"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.4.2"
+    "@storybook/preview-api" "7.4.3"
 
 "@storybook/manager-api@7.2.1":
   version "7.2.1"
