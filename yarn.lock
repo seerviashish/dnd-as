@@ -2478,20 +2478,20 @@
   integrity sha512-CX6t4SYQ37lzxicAqsBtxA3OseeoVrh9cSJ5PFYam0GksYlupRfy1A+Q4aYD3zvcfECLc0zO2u+ZnR2UYKvCrw==
 
 "@storybook/addon-a11y@^7.2.1":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.4.3.tgz#7d8049c873063dff92f36363136863c00975d15b"
-  integrity sha512-ol/7cLedJo82DmIgz925CL6ajPqwoYLDM3DDUkcDiPivLEvCsQkY+Yjv/6DM2cJXdchjppYk7hDTuwO1QJXO4w==
+  version "7.4.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.4.5.tgz#112fc0269bea3a12a84fbbde30e2d741ece37998"
+  integrity sha512-7W8fjCdmwX4zlDM4jpzVKNgelWSqbYr3cH834pqOFAkyiyNVIsNRPQBgSwkkljgz0uAsz8nFCRFK3Oo1btl6Yg==
   dependencies:
-    "@storybook/addon-highlight" "7.4.3"
-    "@storybook/channels" "7.4.3"
-    "@storybook/client-logger" "7.4.3"
-    "@storybook/components" "7.4.3"
-    "@storybook/core-events" "7.4.3"
+    "@storybook/addon-highlight" "7.4.5"
+    "@storybook/channels" "7.4.5"
+    "@storybook/client-logger" "7.4.5"
+    "@storybook/components" "7.4.5"
+    "@storybook/core-events" "7.4.5"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.4.3"
-    "@storybook/preview-api" "7.4.3"
-    "@storybook/theming" "7.4.3"
-    "@storybook/types" "7.4.3"
+    "@storybook/manager-api" "7.4.5"
+    "@storybook/preview-api" "7.4.5"
+    "@storybook/theming" "7.4.5"
+    "@storybook/types" "7.4.5"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2605,6 +2605,15 @@
     "@storybook/core-events" "7.4.3"
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.4.3"
+
+"@storybook/addon-highlight@7.4.5":
+  version "7.4.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.4.5.tgz#1fd45ff07da4c8a3d5c2595310cf67e49c2545cd"
+  integrity sha512-6Ru411+Iis4m2weKb8kB1eEssLvCHwFqAf4fjcOC//O5Vaf5+beHYZJUm/rzD0k/oUHfLCBwDBSBY5TLRegkdA==
+  dependencies:
+    "@storybook/core-events" "7.4.5"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.4.5"
 
 "@storybook/addon-interactions@7.4.5":
   version "7.4.5"
