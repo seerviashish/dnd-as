@@ -2664,35 +2664,6 @@
     "@storybook/client-logger" "7.2.1"
     "@storybook/manager-api" "7.2.1"
 
-"@storybook/blocks@7.4.3":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.4.3.tgz#bbb3dda6c3b8549a71b7aec838c61cf05646ef45"
-  integrity sha512-uyZVx3er1qOPFpKJtsbozBwt1Os3zqiq+2se7xDBK6ERr07zaRHLgRci7+kI8T5mdlCxYiGV+kzx5Vx5/7XaXg==
-  dependencies:
-    "@storybook/channels" "7.4.3"
-    "@storybook/client-logger" "7.4.3"
-    "@storybook/components" "7.4.3"
-    "@storybook/core-events" "7.4.3"
-    "@storybook/csf" "^0.1.0"
-    "@storybook/docs-tools" "7.4.3"
-    "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.4.3"
-    "@storybook/preview-api" "7.4.3"
-    "@storybook/theming" "7.4.3"
-    "@storybook/types" "7.4.3"
-    "@types/lodash" "^4.14.167"
-    color-convert "^2.0.1"
-    dequal "^2.0.2"
-    lodash "^4.17.21"
-    markdown-to-jsx "^7.1.8"
-    memoizerific "^1.11.3"
-    polished "^4.2.2"
-    react-colorful "^5.1.2"
-    telejson "^7.2.0"
-    tocbot "^4.20.1"
-    ts-dedent "^2.0.0"
-    util-deprecate "^1.0.2"
-
 "@storybook/blocks@7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.4.5.tgz#bf95768eeb7642bb90c248e1e0617899c8b11b12"
@@ -3244,18 +3215,6 @@
     "@storybook/core-common" "7.3.2"
     "@storybook/preview-api" "7.3.2"
     "@storybook/types" "7.3.2"
-    "@types/doctrine" "^0.0.3"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
-
-"@storybook/docs-tools@7.4.3":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.4.3.tgz#086029f27f8e139cf2d0f971ea4ef1bdd9ba92ec"
-  integrity sha512-T9oU10vIY3mC6Up+9rjN5LfBydhhIFhKzHPtUT9PfN1iEa0lO2TkT4m+vf2kcokPppUZNVbqiGjy9t/WYnpeZg==
-  dependencies:
-    "@storybook/core-common" "7.4.3"
-    "@storybook/preview-api" "7.4.3"
-    "@storybook/types" "7.4.3"
     "@types/doctrine" "^0.0.3"
     doctrine "^3.0.0"
     lodash "^4.17.21"
