@@ -2750,14 +2750,6 @@
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@7.6.1":
-  version "7.6.1"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.6.1.tgz#5462ed57292f335655fbea88a9453d3705b57aa0"
-  integrity sha512-izolLY0QAPREwm3ZCp9PZasa0OBchzxWYFaVekgbX66lhFJvAVfp84L17oi3HyVbQt7xbAlGPoSoP6wcfMecTw==
-  dependencies:
-    "@storybook/client-logger" "7.6.1"
-    "@storybook/preview-api" "7.6.1"
-
 "@storybook/core-client@7.6.3":
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.6.3.tgz#6324400b71e007c7414135d6d97054d515356677"
@@ -3064,7 +3056,7 @@
     semver "^7.3.7"
     webpack "5"
 
-"@storybook/preview-api@7.6.1", "@storybook/preview-api@^7.0.12":
+"@storybook/preview-api@7.6.1":
   version "7.6.1"
   resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-7.6.1.tgz#710abeaa86040f9f2f8ebeb19ef662a86d8d564e"
   integrity sha512-lhuwkDHBZCq3UtQXRkGKTBntINkXPXyAA7fSYWrwfQBr/3NhaCoj859b+71Ax8sYcSFF4+U3S6+o8XE3dz+kwA==
@@ -3084,7 +3076,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/preview-api@7.6.3":
+"@storybook/preview-api@7.6.3", "@storybook/preview-api@^7.0.12":
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-7.6.3.tgz#da8e30e5cbe1c0ca5e40af5dc01a4714c37d5af8"
   integrity sha512-uPaK7yLE1P++F+IOb/1j9pgdCwfMYZrUPHogF/Mf9r4cfEjDCcIeKgGMcsbU1KnkzNQQGPh8JRzRr/iYnLjswg==
@@ -3141,33 +3133,6 @@
     "@storybook/preset-react-webpack" "7.6.3"
     "@storybook/react" "7.6.3"
     "@types/node" "^18.0.0"
-
-"@storybook/react@7.6.1":
-  version "7.6.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.6.1.tgz#13b47df620756884b68a77d345802891373b45b1"
-  integrity sha512-zl157OA2ihP7sGDzgiU9lnXJ+iDDnxcEJu0xVCVsAjD1BvAKYB1Otc6aRIRCHLQLP8yoM7ekxzWYl9lGjXunNA==
-  dependencies:
-    "@storybook/client-logger" "7.6.1"
-    "@storybook/core-client" "7.6.1"
-    "@storybook/docs-tools" "7.6.1"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.6.1"
-    "@storybook/react-dom-shim" "7.6.1"
-    "@storybook/types" "7.6.1"
-    "@types/escodegen" "^0.0.6"
-    "@types/estree" "^0.0.51"
-    "@types/node" "^18.0.0"
-    acorn "^7.4.1"
-    acorn-jsx "^5.3.1"
-    acorn-walk "^7.2.0"
-    escodegen "^2.1.0"
-    html-tags "^3.1.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-element-to-jsx-string "^15.0.0"
-    ts-dedent "^2.0.0"
-    type-fest "~2.19"
-    util-deprecate "^1.0.2"
 
 "@storybook/react@7.6.3":
   version "7.6.3"
@@ -3278,7 +3243,7 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.6.1", "@storybook/types@^7.0.12":
+"@storybook/types@7.6.1":
   version "7.6.1"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.1.tgz#3bb7f5e8ee39af53fb5aaf6ed713f8ad656151cf"
   integrity sha512-xwEdMHbms7nnyPugqrxjz62n1CoAZ6I+m6y7Rfk/2C0nsgpS0Go1UXUNmcWNxx2ZYX7bEgSPZtcYZa9buPSY3g==
@@ -3288,7 +3253,7 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.6.3":
+"@storybook/types@7.6.3", "@storybook/types@^7.0.12":
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.3.tgz#cd37997cfcd349d3eb4d2c9da9eb7f334d2fb937"
   integrity sha512-vj9Jzg5eR52l8O9512QywbQpNdo67Z6BQWR8QoZRcG+/Bhzt08YI8IZMPQLFMKzcmWDPK0blQ4GfyKDYplMjPA==
