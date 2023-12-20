@@ -2934,6 +2934,14 @@
     "@storybook/client-logger" "7.6.5"
     "@storybook/preview-api" "7.6.5"
 
+"@storybook/core-client@7.6.6":
+  version "7.6.6"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.6.6.tgz#738173e13728020303530532789ff54102a3e294"
+  integrity sha512-P100aNf+WpvzlfULZp1NPd60/nxsppLmft2DdIyAx1j4QPMZvUJyJB+hdBMzTFiPEhIUncIMoIVf2R3UXC5DfA==
+  dependencies:
+    "@storybook/client-logger" "7.6.6"
+    "@storybook/preview-api" "7.6.6"
+
 "@storybook/core-common@7.6.5":
   version "7.6.5"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.6.5.tgz#51bda38a722507de5adfe2b05a82f4404188e898"
@@ -3076,21 +3084,6 @@
   dependencies:
     "@storybook/csf-tools" "7.6.6"
     unplugin "^1.3.1"
-
-"@storybook/csf-tools@7.6.5":
-  version "7.6.5"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.6.5.tgz#8e9e98f600ee651e8b63524662ce5a8a6a155fdf"
-  integrity sha512-1iaCh7nt+WE7Q5UwRhLLc5flMNoAV/vBr0tvDSCKiHaO+D3dZzlZOe/U+S6wegdyN2QNcvT2xs179CcrX6Qp6w==
-  dependencies:
-    "@babel/generator" "^7.23.0"
-    "@babel/parser" "^7.23.0"
-    "@babel/traverse" "^7.23.2"
-    "@babel/types" "^7.23.0"
-    "@storybook/csf" "^0.1.2"
-    "@storybook/types" "7.6.5"
-    fs-extra "^11.1.0"
-    recast "^0.23.1"
-    ts-dedent "^2.0.0"
 
 "@storybook/csf-tools@7.6.6":
   version "7.6.6"
@@ -3337,6 +3330,33 @@
     "@storybook/preview-api" "7.6.5"
     "@storybook/react-dom-shim" "7.6.5"
     "@storybook/types" "7.6.5"
+    "@types/escodegen" "^0.0.6"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^18.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.1.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "~2.19"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@7.6.6":
+  version "7.6.6"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.6.6.tgz#6eaaebb788d8b8d7a38513c40b2ebd6452ed25cc"
+  integrity sha512-pE6GJ4hPGJIsX6AREjW6HibshwZE6rFhWRtjeX5MV0eKMmQgoRWRgiRfg9/YB6Z0tRtuptI83Uaszimmif1BKg==
+  dependencies:
+    "@storybook/client-logger" "7.6.6"
+    "@storybook/core-client" "7.6.6"
+    "@storybook/docs-tools" "7.6.6"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.6.6"
+    "@storybook/react-dom-shim" "7.6.6"
+    "@storybook/types" "7.6.6"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^18.0.0"
