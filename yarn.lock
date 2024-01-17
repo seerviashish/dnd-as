@@ -2611,13 +2611,6 @@
     "@storybook/preview-api" "7.6.9"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-highlight@7.6.8":
-  version "7.6.8"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.6.8.tgz#6e1dfd1e5a7424b5095ff3e81772db2f093864e9"
-  integrity sha512-3mUfdLxaegCKWSm0i245RhnmEgkE+uLnOkE7h2kiztrWGqYuzGBKjgfZuVrftqsEWWc7LlJ1xdDZsIgs5Z06gA==
-  dependencies:
-    "@storybook/global" "^5.0.0"
-
 "@storybook/addon-highlight@7.6.9":
   version "7.6.9"
   resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.6.9.tgz#9a0a9a6e06df34a47056e17bd3aaaf01371da6f6"
@@ -2625,13 +2618,13 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/addon-interactions@7.6.8":
-  version "7.6.8"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.6.8.tgz#d7ff4f8a487a0b8792110f7526a176cbd08ae6a5"
-  integrity sha512-E1ZMrJ/4larCPW92AFuY71I9s8Ri+DEdwNtVnU/WV55NA+E9oRKt5/qOrJLcjQorViwh9KOHeeuc8kagA2hjnA==
+"@storybook/addon-interactions@7.6.9":
+  version "7.6.9"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.6.9.tgz#f74187d55433089969b8774609b74c3c82cbde91"
+  integrity sha512-F3n0bHJ30R3WBSOgKzQeMLDfDAwqpYbsOlVdGZ5oI2hlocZXW2V6SH3FmZH5WWm21P6jek+pUJSe8O+k2X+DSg==
   dependencies:
     "@storybook/global" "^5.0.0"
-    "@storybook/types" "7.6.8"
+    "@storybook/types" "7.6.9"
     jest-mock "^27.0.6"
     polished "^4.2.2"
     ts-dedent "^2.2.0"
@@ -3566,7 +3559,7 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.6.8", "@storybook/types@^7.0.12":
+"@storybook/types@7.6.8":
   version "7.6.8"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.8.tgz#84a8db3fe5a251aa24580acd7855ac0ed35a62bd"
   integrity sha512-+mABX20OhwJjqULocG5Betfidwrlk+Kq+grti+LAYwYsdBwxctBNSrqK8P9r8XDFL6PbppZeExGiHKwGu6WsKQ==
@@ -3576,7 +3569,7 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.6.9":
+"@storybook/types@7.6.9", "@storybook/types@^7.0.12":
   version "7.6.9"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.9.tgz#f53a4ce5bc7832f349c4f376d388ed2f1f26ea04"
   integrity sha512-Qnx7exS6bO1MrqasHl12h8/HeBuxrwg2oMXROO7t0qmprV6+DGb6OxztsVIgbKR+m6uqFFM1q+f/Q5soI1qJ6g==
