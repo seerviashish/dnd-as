@@ -2992,14 +2992,6 @@
     "@storybook/client-logger" "7.6.10"
     "@storybook/preview-api" "7.6.10"
 
-"@storybook/core-client@7.6.9":
-  version "7.6.9"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.6.9.tgz#15b12d4830544873b48b25ec49264d33a4dff28a"
-  integrity sha512-a94YHpRilFhhfPLmCsnEuGQld7ZY7VfQPtzKL/a8MjNEYiJTghquLx20ZPAeO/CjKZmtTfLVhO95InkNtKz33A==
-  dependencies:
-    "@storybook/client-logger" "7.6.9"
-    "@storybook/preview-api" "7.6.9"
-
 "@storybook/core-common@7.6.10":
   version "7.6.10"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.6.10.tgz#00b73761eb3c4452105a7d79b5179237a6f01b32"
@@ -3422,33 +3414,6 @@
     "@storybook/preview-api" "7.6.10"
     "@storybook/react-dom-shim" "7.6.10"
     "@storybook/types" "7.6.10"
-    "@types/escodegen" "^0.0.6"
-    "@types/estree" "^0.0.51"
-    "@types/node" "^18.0.0"
-    acorn "^7.4.1"
-    acorn-jsx "^5.3.1"
-    acorn-walk "^7.2.0"
-    escodegen "^2.1.0"
-    html-tags "^3.1.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-element-to-jsx-string "^15.0.0"
-    ts-dedent "^2.0.0"
-    type-fest "~2.19"
-    util-deprecate "^1.0.2"
-
-"@storybook/react@7.6.9":
-  version "7.6.9"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.6.9.tgz#1c9163e446738fb5b794bd7f72e1dd77df5c8364"
-  integrity sha512-nKBiI0wVyN3yj9xgNjIVKaaYSwe+qBqn0pxmiHSY20mUY4GH1thEY2KMtL0BLIU/mvcp6cw/Sj3oDFKCe+G0MA==
-  dependencies:
-    "@storybook/client-logger" "7.6.9"
-    "@storybook/core-client" "7.6.9"
-    "@storybook/docs-tools" "7.6.9"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.6.9"
-    "@storybook/react-dom-shim" "7.6.9"
-    "@storybook/types" "7.6.9"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^18.0.0"
