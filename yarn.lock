@@ -2616,13 +2616,13 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/addon-interactions@7.6.11":
-  version "7.6.11"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.6.11.tgz#982483f8e33fa39ef5dd62a50cf173ed67122cf0"
-  integrity sha512-5/zYVCLMjdJ7KjFu/DCwHFF7GBKF922UPdbmqYgMMfSYPngdFRoI77QGfAVZC63w7FE4hBznFOMtv2kOM9J66g==
+"@storybook/addon-interactions@7.6.12":
+  version "7.6.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.6.12.tgz#eef229fa05ad97ab2963ec448abea51112629f3e"
+  integrity sha512-D8NX2xu9WiqPInoN842DU+KAFVC8HscGczqkDGEiWCAqq0DfXtW/0ClMSaE6d2+twhGv6uiPfeJ2IdynSZolXg==
   dependencies:
     "@storybook/global" "^5.0.0"
-    "@storybook/types" "7.6.11"
+    "@storybook/types" "7.6.12"
     jest-mock "^27.0.6"
     polished "^4.2.2"
     ts-dedent "^2.2.0"
